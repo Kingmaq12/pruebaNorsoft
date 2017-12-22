@@ -1,4 +1,8 @@
 <% 
+    
+    
+    //toma los datos ingresados por el usuario, los guarda en una session para en la proxima vista mostrarlo en forma de resultado.
+    
     String nombre = request.getParameter("nombre");
     String apellido = request.getParameter("apellido");
     String estado_civil = request.getParameter("estado_civil");

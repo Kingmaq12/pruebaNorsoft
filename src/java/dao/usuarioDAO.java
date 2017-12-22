@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ufps.plantilla.dao;
+package dao;
 
-import ufps.plantilla.dto.usuarioDTO;
-import ufps.plantilla.interf.IUsuarioDAO;
+import dto.usuarioDTO;
+import interf.IUsuarioDAO;
 
 /**
  *
@@ -14,7 +14,11 @@ import ufps.plantilla.interf.IUsuarioDAO;
  */
 public class usuarioDAO implements IUsuarioDAO{
     
-    
+    /**
+     * valida si los datos del usuario son los correctos para ingresar.
+     * @param dto
+     * @return true si es valido, false si no.
+     */
     public boolean login(usuarioDTO dto){
         
         if(dto.getUser().equalsIgnoreCase("user")&& dto.getPassword().equalsIgnoreCase("12345")){

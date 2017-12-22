@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ufps.plantilla.negocio;
+package negocio;
 
 import java.util.ArrayList;
-import ufps.plantilla.dao.usuarioDAO;
-import ufps.plantilla.dto.usuarioDTO;
+import dao.usuarioDAO;
+import dto.usuarioDTO;
 
 /**
  *
@@ -17,7 +17,7 @@ import ufps.plantilla.dto.usuarioDTO;
 
 public class Negocio {
     
-    
+    //Crea el objeto usuario para enviarlo al DAO de usuario y validar sus datos.
     public boolean login(String user, String password){
         
         usuarioDTO dto = new usuarioDTO(user, password);

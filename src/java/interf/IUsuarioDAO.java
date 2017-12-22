@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ufps.plantilla.interf;
+package interf;
 
-import ufps.plantilla.dto.usuarioDTO;
+import dto.usuarioDTO;
 
 /**
  *

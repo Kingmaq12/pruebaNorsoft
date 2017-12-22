@@ -21,6 +21,8 @@ function nuevoAjax() {
     return xmlhttp;
 }
 
+
+//toma y envio de datos para el inicio de sesion.
 function iniciar() {
 
     ajax = nuevoAjax();
@@ -63,6 +65,7 @@ function iniciar() {
 
 }
 
+//toma y envio de datos ingresados en la consulta.
 function consulta() {
 
 
@@ -127,6 +130,8 @@ function consulta() {
 
 
 }
+
+//Verificacion de solo letras y numeros.
 function solo(e) {
     key = e.keyCode || e.which;
     tecla = String.fromCharCode(key).toString();
